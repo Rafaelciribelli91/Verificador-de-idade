@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container{
+    width: 450px;
+    height: 650px;
+    background-color: #53868A;
+    text-align: center;
+}
+
+h1{
+    margin: 30px 0;
+    color: white;
+}
+
+.info{
+   background-color: white;
+   padding: 20px;
+   width: 90%;
+   height: 500px;   
+   margin: 0 auto;
+   border-radius: 20px;
+}
+
+img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.sex {
+    margin: 20px 0 5px 0;
+}
+
+button {
+    margin: 20px 0;
+    width: 110px;
+    height: 50px;
+    font-size: 18px;
+    color: white;
+    background-color: #53868A;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+button:active {
+    opacity: 0.7;
+}
+
+.input-radio {
+    margin: 6px;
+}
+
+#result {
+    width: 260px;
+    height: 242px;
+    margin: 0 auto;
+}

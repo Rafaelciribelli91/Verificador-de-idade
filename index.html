@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de idade</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Verificador de idade</h1>
+            <div class="info">
+            <label>Ano de nascimento:</label>
+                <input id="born" type="number">
+
+                <div class="sex">                
+                <label>Sexo:</label>
+                    <input class="input-radio" type="radio" id="male" name="sex" value="homem" checked>Masculino
+                    <input class="input-radio" type="radio" id="female" name="sex" value="mulher">Feminino                
+                </div>
+
+                <button onclick="verify()" id="verify" type="button">Verificar</button>    
+                
+                <div id="result">
+                    <p id="paragraphResult"></p>
+                    <img src="img/avatar.png" alt="avatar" id="imgResult">
+                </div>               
+            
+            </div>
+    </div>       
+    
+
+
+    <script src="main.js"></script>
+</body>
+</html>
